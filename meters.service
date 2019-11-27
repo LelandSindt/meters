@@ -1,0 +1,8 @@
+[Unit]
+Description=meters
+
+[Service]
+ExecStart=/home/pi/meters.py
+
+[Install]
+WantedBy=multi-user.target
